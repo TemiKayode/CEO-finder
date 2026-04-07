@@ -4,7 +4,7 @@ One-file CSV pipeline that dedupes contacts by email domain and uses Tavily (**o
 
 ## What it does
 
-- **Reads**: Apollo / BRYCOOL / sac2 contact CSV exports
+- **Reads**: Apollo contact CSV exports
 - **Dedupes**: contacts by email (so each email appears at most once in outputs)
 - **Enriches**: one Tavily lookup per unique email domain (not per row)
 - **Assigns**: the found CEO name to every contact that shares the same domain
